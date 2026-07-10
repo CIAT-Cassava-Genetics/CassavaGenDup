@@ -4,8 +4,6 @@
 
 The pipeline allows to load genotype files, evaluate genotype quality, identify duplicated and unique samples, generate final reports, visualize genotype profiles, export VCF files, and perform kinship-based relationship analysis.
 
-This repository includes an initial curated reference database of approximately 12,000 cassava samples.
-
 ## How to use
 
 ### 1. Clone or download this repository
@@ -50,7 +48,11 @@ Run the notebook sections step by step.
 
 ## Input files
 
-Input genotype files should be placed in the `input/` folder.
+CassavaGenDup accepts any .csv file containing, at minimum, the following information:
+
+* A column with the genotype call for each sample-marker combination.
+* A column with the SNP or assay identifier.
+* A column with the sample name or sample identifier.
 
 ## Reference database
 
@@ -60,7 +62,7 @@ The `data/` folder contains the curated reference files used by the pipeline:
 * `passportdb.csv`: curated passport database.
 * `SNPY.csv`: SNP marker information.
 
-The initial release includes approximately 12,000 cassava samples.
+The initial release includes reference data for 12,000 cassava samples.
 
 ## Main outputs
 
@@ -77,11 +79,11 @@ Output files are saved in the `results/` folder.
 
 ## Citation
 
-If you use CassavaGenDup or the SNPY-Chip data structure in your research, please cite the associated manuscript:
+If you use CassavaGenDup or the SNPY-Chip data in your research, please cite the associated manuscript:
 
+Manuscript in preparation.
 Gomez-Martinez L., Barrera V., Bohórquez-Chaux A., Ovalle T., Perea C., Leiva A.M., Narvaez M., Vélez M., Labarta R., Peña-Venegas C.P., Ocampo J., Dufour D., Newby J., Gimode W., and Becerra López-Lavalle L.A.
 **A global genomic map of cassava diversity: development of the SNPY-Chip and the CassavaGenDup tool for varietal identification.**
-Manuscript in preparation.
 
 ## Authors
 
