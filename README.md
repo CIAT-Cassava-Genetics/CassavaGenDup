@@ -82,8 +82,8 @@ Output files are saved in the `results/` folder.
 If you use CassavaGenDup or the SNPY-Chip data in your research, please cite the associated manuscript:
 
 Manuscript in preparation.
-Gomez-Martinez L., Barrera V., Bohórquez-Chaux A., Ovalle T., Perea C., Leiva A.M., Narvaez M., Vélez M., Labarta R., Peña-Venegas C.P., Ocampo J., Dufour D., Newby J., Gimode W., and Becerra López-Lavalle L.A.
-**A global genomic map of cassava diversity: development of the SNPY-Chip and the CassavaGenDup tool for varietal identification.**
+Gomez-Martinez L., Barrera V., Bohórquez-Chaux A., Ovalle T., Perea C., Leiva A.M., Narvaez M., Labarta R., Peña-Venegas C.P., Ocampo J., Dufour D., Newby J., Gimode W., and Becerra López-Lavalle L.A.
+**Global-scale cassava genetic diversity: development of the SNPY-Chip and the CassavaGenDup tool for varietal identification**
 
 ## Authors
 
