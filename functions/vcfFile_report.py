@@ -85,7 +85,7 @@ def vcfFile_report(sample_list_file, matrix, output_vcf):
     header_meta = (
         "##fileformat=VCFv4.2\n"
         "##source=CassavaGenDupPipeline\n"
-        "##reference=Manihot_esculenta v8\n"
+        "##reference=Manihot_esculenta_v8\n"
         "##FORMAT=<ID=GT,Number=1,Type=String,Description=\"Genotype\">\n"
     )
     header_cols = "\t".join(vcf_cols + sample_list) + "\n"
