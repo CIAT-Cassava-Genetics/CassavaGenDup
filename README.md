@@ -9,7 +9,7 @@ The pipeline allows to load genotype files, evaluate genotype quality, identify 
 ### 1. Clone or download this repository
 
 ```bash
-git clone https://github.com/yourusername/CassavaGenDup.git
+git clone https://github.com/CIAT-Cassava-Genetics/CassavaGenDup.git
 cd CassavaGenDup
 ```
 
